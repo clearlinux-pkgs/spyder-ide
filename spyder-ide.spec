@@ -4,10 +4,10 @@
 #
 Name     : spyder-ide
 Version  : 4.0.1
-Release  : 3
+Release  : 4
 URL      : https://github.com/spyder-ide/spyder/archive/v4.0.1.tar.gz
 Source0  : https://github.com/spyder-ide/spyder/archive/v4.0.1.tar.gz
-Summary  : No detailed summary available
+Summary  : The Scientific Python Development Environment
 Group    : Development/Tools
 License  : Apache-2.0 BSD-3-Clause LGPL-3.0 MIT
 Requires: spyder-ide-bin = %{version}-%{release}
@@ -52,9 +52,7 @@ BuildRequires : psutil
 BuildRequires : pylint
 
 %description
-https://github.com/spyder-ide/spyder/graphs/contributors)*
-*Some source files and icons may be under other authorship/licenses; see
-[NOTICE.txt](https://github.com/spyder-ide/spyder/blob/master/NOTICE.txt).*
+![Spyder — The Scientific Python Development Environment](https://raw.githubusercontent.com/spyder-ide/spyder/master/img_src/spyder_readme_banner.png)
 
 %package bin
 Summary: bin components for the spyder-ide package.
@@ -95,6 +93,33 @@ python components for the spyder-ide package.
 Summary: python3 components for the spyder-ide package.
 Group: Default
 Requires: python3-core
+Provides: pypi(spyder)
+Requires: pypi(atomicwrites)
+Requires: pypi(chardet)
+Requires: pypi(cloudpickle)
+Requires: pypi(diff_match_patch)
+Requires: pypi(intervaltree)
+Requires: pypi(jedi)
+Requires: pypi(keyring)
+Requires: pypi(nbconvert)
+Requires: pypi(numpydoc)
+Requires: pypi(pexpect)
+Requires: pypi(pickleshare)
+Requires: pypi(psutil)
+Requires: pypi(pygments)
+Requires: pypi(pylint)
+Requires: pypi(pyqt5)
+Requires: pypi(pyqtwebengine)
+Requires: pypi(python_language_server)
+Requires: pypi(pyxdg)
+Requires: pypi(pyzmq)
+Requires: pypi(qdarkstyle)
+Requires: pypi(qtawesome)
+Requires: pypi(qtconsole)
+Requires: pypi(qtpy)
+Requires: pypi(sphinx)
+Requires: pypi(spyder_kernels)
+Requires: pypi(watchdog)
 
 %description python3
 python3 components for the spyder-ide package.
@@ -109,8 +134,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582917996
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583702612
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

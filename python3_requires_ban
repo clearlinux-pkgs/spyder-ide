@@ -1,0 +1,4 @@
+pypi(pyqt5)
+pypi(pyqtwebengine)
+pypi(qdarkstyle)
+pypi(watchdog)

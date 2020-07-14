@@ -1,5 +1,5 @@
 PKG_NAME := spyder-ide
-URL = https://github.com/spyder-ide/spyder/archive/v4.1.2/spyder-4.1.2.tar.gz
+URL = https://github.com/spyder-ide/spyder/archive/v4.1.4/spyder-4.1.4.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

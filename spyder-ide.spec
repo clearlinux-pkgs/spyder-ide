@@ -4,7 +4,7 @@
 #
 Name     : spyder-ide
 Version  : 4.2.0
-Release  : 10
+Release  : 11
 URL      : https://github.com/spyder-ide/spyder/archive/v4.2.0/spyder-4.2.0.tar.gz
 Source0  : https://github.com/spyder-ide/spyder/archive/v4.2.0/spyder-4.2.0.tar.gz
 Summary  : The Scientific Python Development Environment
